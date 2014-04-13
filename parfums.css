@@ -35,7 +35,9 @@ a:hover {
 }
 
 .head {
-    height:400px;
+    height:50%;
+    min-height:300px;
+    max-height:700px;
     position:relative;
     background:#000;
 }
