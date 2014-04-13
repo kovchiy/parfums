@@ -1,0 +1,122 @@
+body {
+    padding:0;
+    margin:0;
+    font-size:16px;
+    line-height:24px;
+    font-family:'Open Sans',sans-serif;
+}
+
+h1 {
+    font-weight:normal;
+    font-size:34px;
+    line-height:34px;
+    margin:0;
+}
+
+h2 {
+    font-weight:normal;
+    font-size:24px;
+    line-height:24px;
+    margin:0;
+    margin-top:48px;
+}
+
+p {
+    margin:0;
+    margin-top:24px;
+}
+
+a, a:visited, a:hover {
+    color:#D00;
+}
+a:hover {
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.head {
+    height:400px;
+    position:relative;
+    background:#000;
+}
+
+.head-img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000 center center no-repeat;
+    background-size:cover;
+}
+.head-img.current {
+    z-index:2;
+}
+.head-img.next {
+    z-index:1;
+}
+
+.img-over {background-image:url(gallery/1.jpg)}
+
+.logo {
+    background:left top no-repeat url(i/logo.png);
+    position:absolute;
+    left:-1px;
+    top:-165px;
+    width:267px;
+    height:135px;
+}
+
+.content {
+    z-index:2;
+    position:relative;
+    width:920px;
+    margin:0 auto;
+    padding:40px 0;
+}
+
+.row {
+    width:100%;
+    zoom:1;
+    display:inline-block;
+}
+.col-left {
+    float:left;
+    width:440px;
+}
+
+.col-right {
+    float:right;
+    width:440px;
+}
+
+.menu {
+    margin-top:55px;
+}
+.menu h2 {
+    margin-top:18px;
+}
+
+.footer {
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #CCC;
+    zoom:1;
+    display:inline-block;
+    width:100%;
+}
+
+.footer span {
+    line-height:16px;
+    height:16px;
+    float:left;
+    margin-right:10px;
+}
+
+.share {
+    width:16px;
+    height:16px;
+    float:left;
+    margin-right:10px;
+    cursor:pointer;
+}
