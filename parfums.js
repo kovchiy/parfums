@@ -2,7 +2,7 @@ $(function ()
 {
     var url  = location.href,
         title = document.title,
-        img = this.location.origin + '/i/logo.png'
+        img = this.location.origin + '/i/share.png'
         text = $('.share-text').text(),
         share =
         {
